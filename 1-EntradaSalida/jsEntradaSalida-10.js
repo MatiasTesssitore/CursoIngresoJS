@@ -26,6 +26,8 @@ resultado = importe - descuento;
 
 document.getElementById("txtIdResultado").value = resultado;
 
-
+//resultado listo
 
 }
+
+
