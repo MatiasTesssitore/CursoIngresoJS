@@ -15,4 +15,4 @@ function mostrar()
 document.getElementById('txtIdNombre').value =nombreIngresado;
 	
 }
-
+ 
