@@ -21,7 +21,7 @@ function mostrar()
 //cada vez que queramos concatenar una variable con un mensaje
 //usamos el simbolo +
 
-     alert("Su nombre es " + nombreIngresado + "y su edad es " + edadIngresada + " años").alert;
+     alert("Su nombre es " + nombreIngresado + " y su edad es " + edadIngresada + " años").alert;
 
 
 
