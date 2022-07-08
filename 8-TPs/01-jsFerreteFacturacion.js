@@ -78,7 +78,6 @@ let precioTres;
 let resultado; 
 
 
-
 //tomo los num de ID 
 
 precioUno = document.getElementById("txtIdPrecioUno").value;
@@ -94,7 +93,8 @@ precioTres = parseInt(precioTres);
 
 //operamos
 
-resultado =precioUno + precioDos + precioTres + (21*100) / 100 
+resultado =(precioUno + precioDos + precioTres) * 21 /100
+resultado = resultado + precioUno + precioDos + precioTres
 
 alert("El resultado con el IVA ingresado es : " + resultado);	
 }
